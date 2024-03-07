@@ -2,39 +2,38 @@
 
 # [Project: Graph Neural Networks in Recommender Systems: A Comparative Study](https://github.com/ouomarabdessamade/LightGCN)
 
-## Introduction
-This project is a comparative study conducted during my master's program, where I explored the efficacy of various graph neural network approaches in recommendation systems. Specifically, I focused on methods that leverage the interaction between users and items to make recommendations, known as user-item collaborative filtering.
+This project presents a comparative study of various graph neural network-based approaches in recommender systems. The study focuses on models utilizing user-item interaction graphs for recommendations, specifically in user-item collaborative filtering.
 
-### Models Studied
-- Graph Convolution Matrix Completion (GC-MC)
-- Neural Graph Collaborative Filtering (NGCF)
-- LightGCN
-- UltraGCN
+## Models Studied
+1. Graph Convolution Matrix Completion (GC-MC)
+2. Neural Graph Collaborative Filtering (NGCF)
+3. LightGCN : Simplifying and Powering Graph Convolution Network for Recommendation
+4. UltraGCN : Ultra Simplification of Graph Convolutional Networks for Recommendation
 
-### Benchmark Datasets
-- Gowalla Dataset
-- Yelp2018 Dataset
+## Datasets
+The study utilizes two benchmark datasets:
+1. Gowalla Dataset
+2. Yelp2018 Dataset
 
 ## Work Environment
-- Google Colab Pro +
-  - GPU: T4 (15.0 GB), V100 (16.0 GB), A100 (40.0 GB)
-- Kaggle GPU: P100
+- Google Colab Pro +:
+  - GPU T4 with 15.0 GB GPU Memory
+  - GPU V100 with 16.0 GB GPU Memory
+  - GPU A100 with 40.0 GB GPU Memory
+- GPU P100 provided by Kaggle
 
 ## Evaluation Metrics
-- Recall@k: Computes the fraction of relevant items out of all relevant items.
-- NDCG@k: Measures ranking quality, accounting for the position of the hit by assigning higher scores to hits at top ranks.
+1. Recall@k: Computes the fraction of relevant items out of all relevant items.
+2. NDCG@k: Measures ranking quality, assigning higher scores to hits at top ranks with logarithmic discounting.
 
 ## Results
-### Testing Performance
-I conducted tests to compare the performance of the studied models.
-
-### Accuracy-Diversity Comparison
-I analyzed the models' performance with different values of k (5, 10, 30, 40, and 50) using Recall@k and NDCG@k.
-
-### Training Efficiency of Models
-I compared the training efficiency of the models, particularly in the Yelp2018 dataset, considering:
-- Total training time
-- Number of epochs required to achieve optimal performance
+- Testing Performance: Comparative analysis of models' performance.
+- Accuracy-diversity comparison with different values of k (k=5, 10, 30, 40, and 50).
+- Training Efficiency: Comparison of training efficiency in Yelp2018 dataset, including total training time and number of epochs required for optimal performance.
 
 ## Discussion
-I discussed the advantages and limitations of each model, addressing issues such as oversmoothing problems. Additionally, I provided important conclusions to improve recommendations, especially for large-scale recommendation systems.
+- Discussing advantages and limitations of each model, such as the oversmoothing problem.
+- Drawing important conclusions for enhancing recommendations, particularly for large-scale recommendation systems.
+
+## Conclusion
+This project contributes to understanding the efficacy of graph neural network-based approaches in recommender systems. By evaluating performance, efficiency, and discussing limitations, it provides insights for improving recommendation systems, particularly in handling large-scale datasets.
