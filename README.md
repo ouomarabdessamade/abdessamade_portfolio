@@ -1,6 +1,6 @@
 # Abdessamade portfolio
 
-# [Project: Graph Neural Networks in Recommender Systems: A Comparative Study](https://github.com/ouomarabdessamade/LightGCN)
+# [Project: Graph Neural Networks in Recommender Systems : A Comparative Study](https://github.com/ouomarabdessamade/LightGCN)
 
 This project presents a comparative study of various graph neural network-based approaches in recommender systems. The study focuses on models utilizing user-item interaction graphs for recommendations, specifically in user-item collaborative filtering.
 
