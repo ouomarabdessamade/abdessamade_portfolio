@@ -12,8 +12,8 @@ This project presents a comparative study of various graph neural network-based 
 
 ## Datasets
 The study utilizes two benchmark datasets:
-1. Gowalla Dataset
-2. Yelp2018 Dataset
+1. ~~ Gowalla Dataset ~~
+2. ~~ Yelp2018 Dataset ~~
 
 ## Work Environment
 - Google Colab Pro +:
